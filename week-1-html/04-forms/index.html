@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar HTML Hari 4</title>
+  </head>
+  <body>
+    <h1>Form Hubungi Kami</h1>
+
+    <form action="">
+      <label for="nama">Nama Lengkap:</label><br />
+      <input
+        type="text"
+        id="nama"
+        name="nama"
+        placeholder="Masukkan nama anda"
+        required
+      />
+      <br /><br />
+
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="contoh@email.com"
+      />
+      <br /><br />
+
+      <p>Jenis Kelamin:</p>
+      <input type="radio" id="pria" name="gender" value="pria" />
+      <label for="pria">Pria</label>
+
+      <input type="radio" id="wanita" name="gender" value="wanita" />
+      <label for="wanita">Wanita</label>
+      <br /><br />
+
+      <label for="divisi">Hubungi Divisi:</label><br />
+      <select name="divisi" id="divisi">
+        <option value="support">Customer Support</option>
+        <option value="sales">Sales / Penjualan</option>
+        <option value="hrd">Karir / HRD</option>
+      </select>
+      <br /><br />
+
+      <label for="pesan">Pesan:</label><br />
+      <textarea
+        name="pesan"
+        id="pesan"
+        rows="4"
+        cols="50"
+        placeholder="Tulis pesanmu..."
+      ></textarea>
+      <br /><br />
+
+      <button type="submit">Kirim Pesan</button>
+    </form>
+  </body>
+</html>
