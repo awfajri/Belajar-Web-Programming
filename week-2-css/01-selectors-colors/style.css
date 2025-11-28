@@ -1,0 +1,48 @@
+/* 1. TAG SELECTOR: Memilih semua elemen <body> */
+body {
+  background-color: #f4f4f4; /* Abu-abu muda */
+  font-family: "Arial", sans-serif; /* Ganti font jadi Arial */
+  color: #333333; /* Warna teks abu tua (bukan hitam pekat biar mata gak sakit) */
+}
+
+/* 2. CLASS SELECTOR: Ditandai dengan TITIK (.) */
+/* Ini akan mengubah SEMUA elemen yang punya class="card-profile" */
+.card-profile {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px; /* Jarak isi ke pinggir kotak */
+  margin-bottom: 20px; /* Jarak antar kotak */
+  border-radius: 8px; /* Sudut melengkung (Rounded corner) */
+  width: 300px;
+}
+
+.role-text {
+  color: #666; /* Abu-abu sedang */
+  font-style: italic;
+}
+
+/* 3. ID SELECTOR: Ditandai dengan PAGAR (#) */
+#footer-special {
+  background-color: #222; /* Hitam */
+  color: white; /* Teks putih */
+  padding: 10px;
+  text-align: center; /* Teks rata tengah */
+}
+
+/* LATIHAN TOMBOL */
+.btn-primary {
+  background-color: #007bff; /* Biru */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer; /* Kursor berubah jadi tangan saat di-hover */
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid #007bff;
+  color: #007bff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
