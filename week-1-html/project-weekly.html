@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Curriculum Vitae singkat - Ahmad Fajri. UI/UX Designer dan Mahasiswa Informatika."
+    />
+    <title>Curriculum Vitae - Auf Fajri</title>
+  </head>
+  <body>
+    <header>
+      <figure>
+        <img src="profile.jpg" alt="Foto profil Auf Fajri" width="150" />
+        <figcaption>Ahmad Fajri</figcaption>
+      </figure>
+      <h1>Auf Fajri</h1>
+      <p>UI/UX Designer | Mahasiswa Informatika</p>
+
+      <nav aria-label="Navigasi utama">
+        <ul
+          style="
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 0.5rem;
+          "
+        >
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#experience">Pengalaman</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>
+          Saya adalah mahasiswa Informatika yang tertarik pada desain antarmuka
+          dan rekayasa jaringan. Saya menikmati merancang pengalaman pengguna
+          yang intuitif dan mengimplementasikannya menggunakan HTML, CSS, dan
+          JavaScript. Dalam proyek saya, saya sering bekerja dengan tim kecil
+          untuk menyelaraskan desain, implementasi, dan pengujian.
+        </p>
+        <p>
+          Di luar web development, saya mempelajari dasar-dasar jaringan
+          komputer (routing, switching, dan keamanan dasar). Saya antusias
+          mempelajari teknik baru dan berkontribusi pada proyek open-source.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Pendidikan & Keahlian</h2>
+
+        <h3>Pendidikan</h3>
+        <ul>
+          <li>S1 Informatika — Universitas Contoh (2022 — Sekarang)</li>
+          <li>SMA Negeri 1 Contoh (2019 — 2022)</li>
+        </ul>
+
+        <h3>Tech Stack</h3>
+        <ol>
+          <li>HTML5, CSS3, JavaScript (Vanilla)</li>
+          <li>Figma — UI / Prototyping</li>
+          <li>Git, dasar-dasar jaringan (TCP/IP, subnetting)</li>
+        </ol>
+      </section>
+
+      <section id="experience">
+        <h2>Pengalaman Organisasi / Project</h2>
+        <table border="1" cellpadding="10" cellspacing="0" width="100%">
+          <caption>
+            Riwayat pengalaman organisasi / project
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Tahun</th>
+              <th scope="col">Role / Posisi</th>
+              <th scope="col">Organisasi / Project</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2024</td>
+              <td>Volunteer UI Designer</td>
+              <td>Komunitas Desain Kampus — Membantu desain poster dan UI</td>
+            </tr>
+            <tr>
+              <td>2023</td>
+              <td>Intern Web Developer</td>
+              <td>
+                PT Contoh Teknologi — Implementasi halaman statis dan optimasi
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="portfolio">
+        <h2>Showcase Project</h2>
+        <p>Salah satu referensi desain atau video project favorit saya:</p>
+        <figure>
+          <!-- Contoh video: YouTube API demo (ganti jika perlu) -->
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/M7lc1UVf-VE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <figcaption>
+            Contoh embed YouTube — ganti `VIDEO_ID` sesuai video Anda.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section id="contact">
+        <h2>Hubungi Saya</h2>
+        <form method="post" action="#">
+          <label for="email">Email Pengirim:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="auf.fajri@example.com"
+          /><br /><br />
+
+          <label for="message">Pesan:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="30"
+            required
+          ></textarea
+          ><br /><br />
+
+          <p>
+            Atau hubungi saya langsung:
+            <a href="mailto:auf.fajri@example.com">auf.fajri@example.com</a>
+          </p>
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </section>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>Dibuat dengan ❤️ oleh [Nama Kamu] - Belajar HTML Minggu 1</p>
+      <p>
+        <a href="#" target="_blank" rel="noopener">Instagram</a> |
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a> |
+        <a href="#" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </footer>
+  </body>
+</html>
